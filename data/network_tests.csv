@@ -1,0 +1,5 @@
+timestamp,target,packets_sent,packets_received,packet_loss_percent,min_latency_ms,avg_latency_ms,max_latency_ms,stddev_latency_ms,scenario,distance_m,notes
+2026-09-09T18:36:08,8.8.8.8,10,10,0.0,12.118,16.679,20.787,2.867,baseline,2.0,Same room as router
+2026-09-09T18:42:00,8.8.8.8,10,10,0.0,11.761,17.609,34.283,6.48,baseline,8.0,different floor
+2026-09-09T18:42:27,8.8.8.8,10,10,0.0,13.023,17.844,33.079,7.422,baseline,8.0,different floor
+2026-09-09T18:42:51,8.8.8.8,10,10,0.0,12.679,17.438,31.753,5.421,baseline,8.0,different floor
