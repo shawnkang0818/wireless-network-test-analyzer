@@ -1,0 +1,2 @@
+timestamp,throughput_mbps,jitter_ms,lost_packets,packets,packet_loss_percent,server_host,scenario,distance_m,notes
+2026-09-10T16:28:07,50.0,0.295,34,43183,0.079,192.168.1.133,baseline,2.0,Mac and iPhone in same room
