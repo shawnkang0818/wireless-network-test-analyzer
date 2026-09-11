@@ -130,6 +130,27 @@ def save_intervals_to_csv(
                 "retransmits": interval["retransmits"],
             })
 
+def select_scenario():
+    scenarios = {
+        "1": "baseline",
+        "2": "distance",
+        "3": "obstruction",
+        "4": "network_load",
+    }
+
+    print("\nSelect test scenario:")
+    print("1. baseline")
+    print("2. distance")
+    print("3. obstruction")
+    print("4. network_load")
+
+    choice = input("Enter choice (1-4): ").strip()
+
+    if choice not in scenarios:
+        raise ValueError("Invalid scenario selection.")
+
+    return scenarios[choice]
+
 def main():
     print("Wireless Network Throughput Test")
     print("--------------------------------")
@@ -138,9 +159,7 @@ def main():
         "iperf3 server IP address: "
     ).strip()
 
-    scenario = input(
-        "Scenario (baseline/distance/obstruction/network_load): "
-    ).strip()
+    scenario = scenario = select_scenario()
 
     distance_input = input(
         "Approximate distance from router in meters (optional): "

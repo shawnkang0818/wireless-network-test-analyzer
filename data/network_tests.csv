@@ -3,3 +3,14 @@ timestamp,target,packets_sent,packets_received,packet_loss_percent,min_latency_m
 2026-09-09T18:42:00,8.8.8.8,10,10,0.0,11.761,17.609,34.283,6.48,baseline,8.0,different floor
 2026-09-09T18:42:27,8.8.8.8,10,10,0.0,13.023,17.844,33.079,7.422,baseline,8.0,different floor
 2026-09-09T18:42:51,8.8.8.8,10,10,0.0,12.679,17.438,31.753,5.421,baseline,8.0,different floor
+2026-09-10T20:12:54,8.8.8.8,10,10,0.0,10.825,15.785,18.87,2.057,basline,2.0,Mac and iPhone in same room
+2026-09-10T20:13:51,8.8.8.8,10,10,0.0,12.592,15.525,27.148,4.005,baseline,2.0,Mac and iPhone in same room
+2026-09-10T20:14:20,8.8.8.8,10,10,0.0,11.523,13.939,17.277,2.012,baseline,2.0,Mac and iPhone in same room
+2026-09-10T20:16:02,8.8.8.8,10,10,0.0,11.748,15.266,18.864,1.926,baseline,2.0,Mac and iPhone in same room
+2026-09-10T20:16:57,8.8.8.8,10,10,0.0,11.726,18.63,43.922,8.852,baseline,2.0,Mac and iPhone in same room
+2026-09-10T20:17:22,8.8.8.8,10,10,0.0,11.413,16.61,26.478,3.803,baseline,2.0,Mac and iPhone in same room
+2026-09-10T20:19:35,8.8.8.8,10,10,0.0,11.953,19.557,43.449,10.27,distance,8.0,Mac 8 meter away from iPhone
+2026-09-10T20:19:53,8.8.8.8,10,10,0.0,15.469,23.251,46.31,8.292,distance,8.0,Mac 8 meter away from iPhone
+2026-09-10T20:20:14,8.8.8.8,10,10,0.0,12.227,15.482,17.904,1.605,distance,8.0,Mac 8 meter away from iPhone
+2026-09-10T20:22:10,8.8.8.8,10,10,0.0,12.868,20.329,31.401,5.357,obstruction,10.0,Mac and iPhone in different floor
+2026-09-10T20:23:32,8.8.8.8,10,10,0.0,12.104,15.245,19.854,2.321,obstruction,10.0,Mac and iPhone in different floor

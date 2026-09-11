@@ -22,7 +22,6 @@ The project is designed to practice test engineering workflows including control
 - Per second throughput interval logging
 
 ### Stage 3: UDP Testing
-Planned:
 - UDP throughput measurement
 - Jitter measurement
 - UDP packet loss measurement

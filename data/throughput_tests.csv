@@ -3,3 +3,4 @@ timestamp,sent_mbps,received_mbps,retransmits,server_host,scenario,distance_m,no
 2026-09-10T14:35:33,84.69,80.49,0,192.168.1.133,baseline,2.0,Mac and iPhone in same room
 2026-09-10T14:42:39,206.0,202.68,0,192.168.1.133,baseline,2.0,Mac and iPhone in same room
 2026-09-10T15:01:32,254.81,251.5,0,192.168.1.133,baseline,2.0,Mac and iPhone in same room
+2026-09-10T20:55:10,137.51,134.31,926,192.168.1.133,baseline,2.0,Mac and iPhone in same room
