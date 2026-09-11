@@ -159,7 +159,7 @@ def main():
         "iperf3 server IP address: "
     ).strip()
 
-    scenario = scenario = select_scenario()
+    scenario = select_scenario()
 
     distance_input = input(
         "Approximate distance from router in meters (optional): "

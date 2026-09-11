@@ -1,2 +1,11 @@
 timestamp,throughput_mbps,jitter_ms,lost_packets,packets,packet_loss_percent,server_host,scenario,distance_m,notes
 2026-09-10T16:28:07,50.0,0.295,34,43183,0.079,192.168.1.133,baseline,2.0,Mac and iPhone in same room
+2026-09-10T21:21:09,50.0,0.317,0,43185,0,192.168.1.133,baseline,2.0,Controlled baseline run 1: iPhone fixed near router; Mac 2 m from router; same room
+2026-09-10T21:21:48,50.0,0.352,0,43167,0,192.168.1.133,baseline,2.0,Controlled baseline run 2: iPhone fixed near router; Mac 2 m from router; same room
+2026-09-10T21:22:26,50.0,0.373,0,43165,0,192.168.1.133,baseline,2.0,Controlled baseline run 3: iPhone fixed near router; Mac 2 m from router; same room
+2026-09-10T21:28:33,50.0,0.372,11,43167,0.025,192.168.1.133,distance,8.0,Controlled distance run 1: iPhone fixed near router; Mac 8 m from router; two interior walls
+2026-09-10T21:29:41,50.0,0.409,25,43171,0.058,192.168.1.133,distance,8.0,Controlled distance run 2: iPhone fixed near router; Mac 8 m from router; two interior walls
+2026-09-10T21:30:20,50.0,0.37,6,43185,0.014,192.168.1.133,distance,8.0,Controlled distance run 3: iPhone fixed near router; Mac 8 m from router; two interior walls
+2026-09-10T21:37:05,50.0,0.372,0,43175,0,192.168.1.133,obstruction,10.0,Controlled obstruction run 1: iPhone fixed near router on second floor; Mac 10 m from router on first floor; one floor between
+2026-09-10T21:39:45,50.0,0.231,79,43165,0.183,192.168.1.133,obstruction,10.0,Controlled obstruction run 2: iPhone fixed near router on second floor; Mac 10 m from router on first floor; one floor between
+2026-09-10T21:53:17,50.0,0.489,0,43168,0,192.168.1.133,obstruction,10.0,Controlled obstruction run 3: iPhone fixed near router on second floor; Mac 10 m from router on first floor; one floor between
