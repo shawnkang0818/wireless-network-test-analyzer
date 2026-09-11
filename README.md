@@ -23,9 +23,11 @@ The project is designed to practice test engineering workflows including control
 
 ### Stage 3: UDP Testing
 Planned:
-- UDP throughput
-- Jitter
-- UDP packet loss
+- UDP throughput measurement
+- Jitter measurement
+- UDP packet loss measurement
+- Datagram loss tracking
+- Structured CSV logging
 
 ### Stage 4: Test Scenario Analysis
 Planned:
